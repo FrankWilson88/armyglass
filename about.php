@@ -38,11 +38,11 @@
           <td></td>
           <td>Social Media</td>
           <td></td>
-          <td>Profile Card</td>
+          <td></td>
         </tr>
         <tr>
-          <td>Phone: </td>
-          <td>(717) 495-9912</td>
+          <td></td>
+          <td></td>
           <td></td>
           <td>Facebook:</td>
           <td><a href='https://facebook.com' target='_blank'>facebook.com</a></td>
