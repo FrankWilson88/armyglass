@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Allison&family=Dancing+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=Griffy&family=Zen+Kurenaido&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cinzel&display=swap');
+@import 'pc/pc.css';
+@import 'tablet/tablet.css';
+
+* {
+  box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+div.dropdown{display:inline;}
+div.dropdown ul.dropdownContent li{
+    list-style: none;
+    display: none;
+    position: relative;
+    cursor: pointer;
+    top: 1em;
+    left: 10em;
+    width: 6em;
+    height: 2em;
+    float: right;
+    margin: 0px 5px;
+}
+div.dropdown:hover ul.dropdownContent li{
+    display: block;
+}
+div.dropdown ul.dropdownContent ul.dropdownSubContent li{
+    display: none;
+    position: relative;
+    left: 10%;
+    top:-0.25em;
+}
+div.dropdown ul.dropdownContent li:hover ul.dropdownSubContent li{
+    display: inline;
+}
