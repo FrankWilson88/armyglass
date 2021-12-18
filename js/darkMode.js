@@ -15,3 +15,4 @@ function darkmode(){
     y.boxShadow = "10px 10px black";
   }
 }
+console.log("Dark Mode Feature is Loaded")

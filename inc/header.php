@@ -2,7 +2,7 @@
   <h1>Welcome to the home of Army Glass!</h1>
   <q>Your mom made you strong, we'll make you dab strong.</q>
   <ul>Notifications:
-    <li>Click <a href="https://squareup.com/gift/YKR5XHXK7J8Z8/order">here</a> to get your mans a gift card!</li>
+    <li>Click <a href="https://squareup.com/gift/YKR5XHXK7J8Z8/order">here</a> to get my mans a gift card!</li>
     <!--<li>Sexy live videos <a href="#">here</a>!-->
   </ul>
 </div>

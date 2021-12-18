@@ -17,3 +17,4 @@ function slideshow(){
   dots[slideIndex-1].style.background = "white";
   setTimeout(slideshow, 5000);
 }
+console.log("Slideshow Feature is Loaded")

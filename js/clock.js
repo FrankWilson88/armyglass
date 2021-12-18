@@ -10,3 +10,4 @@ function clock(){
 setInterval(clock, 1000);
 
 document.getElementById('copyright').outerHTML = "2019-" + new Date().getFullYear();
+console.log("Clock Feature is Loaded")

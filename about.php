@@ -7,7 +7,7 @@
   <meta name="author" content="Joe Corso">
   <meta name="keywords" content="e-commerce, handmade, glassblowing, art, artist, manufacturing, vateran, veteran owned">
   <meta name="description" content="Welcome to the Official Army Glass e-commerce store! You can find my full catalog of artwork on the Home page.">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/main.css?<?php echo date("Y/m/d_H:i:s"); ?>" rel="stylesheet">
   <link href="img/favicon.jpeg" rel="icon" type="image/icon type">
   <title>About|Army Glass</title>
 </head>
@@ -18,9 +18,7 @@
     </div>
   </header>
 
-  <nav>
-    <?php include 'inc/nav.php'; ?>
-  </nav>
+  <?php include 'inc/nav.php'; ?>
 
   <div class="about">
       <h1>Army Glass | About</h1>
@@ -36,20 +34,17 @@
           <td>Contact Info</td>
           <td></td>
           <td></td>
-          <td>Social Media</td>
-          <td></td>
-          <td></td>
-        </tr>
-        <tr>
           <td></td>
           <td></td>
           <td></td>
-          <td>Facebook:</td>
-          <td><a href='https://facebook.com' target='_blank'>facebook.com</a></td>
         </tr>
         <tr>
           <td>E-mail: </td>
           <td><a href='mailto:armyglass@hotmail.com?subject=website query'>ArmyGlass@hotmail.com</a></td>
+        </tr>
+        <tr>
+          <td><a href='https://www.facebook.com/armyglass' target='_blank'><img src="img/smLink/fb.png"></a></td>
+          <td><a href='https://www.instagram.com/armyglass/' target='_blank'><img src="img/smLink/ig.png"></a></td>
         </tr>
       </table>
   </div>
@@ -58,6 +53,5 @@
     <?php include 'inc/footer.php'; ?>
   </footer>
 </body>
-<script src="js/slideshow.js"></script>
-<script src="js/clock.js"></script>
+<?php include 'inc/js.php'; ?>
 </html>

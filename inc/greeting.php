@@ -8,6 +8,6 @@ elseif ($h < "17"){
   echo "Good evening. How do you do?";
 }
 elseif ($h < "23"){
-  echo "Ooooweeee! That was a crazy day!";
+  echo "Daaaang! That was a crazy day!";
 }
 ?>

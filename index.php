@@ -7,7 +7,7 @@
   <meta name="author" content="Joe Corso">
   <meta name="keywords" content="e-commerce, handmade, glassblowing, art, artist, manufacturing, vateran, veteran owned">
   <meta name="description" content="Welcome to the Official Army Glass e-commerce store! You can find my full catalog of artwork on the Home page.">
-  <link href="css/main.css" rel="stylesheet">
+  <link href="css/main.css?<?php echo date("Y/m/d_H:i:s") ?>" rel="stylesheet">
   <link href="img/favicon.jpeg" rel="icon" type="image/icon type">
   <title>Home|Army Glass</title>
 </head>
@@ -18,12 +18,11 @@
     </div>
   </header>
 
-  <nav>
-    <?php include 'inc/nav.php'; ?>
-  </nav>
 
-  <div class='pc tablet mobile'>
-    <div class="col-4 col-s-4">
+  <?php include 'inc/nav.php'; ?>
+
+  <div class="pc tablet mobile">
+    <div class="col-4 col-s-4 col-m-12">
         <div class="item">
           <img src="img/items/agspoon.jpg">
           <p>AG, Spoon<br>$35</p>
@@ -31,7 +30,7 @@
         </div>
     </div>
 
-    <div class="col-4 col-s-4">
+    <div class="col-4 col-s-4 col-m-12">
         <div class="item">
           <img src="img/items/wigwagrig.png">
           <p>WigWag Rig<br>$150</p>
@@ -39,7 +38,7 @@
         </div>
     </div>
 
-    <div class="col-4 col-s-4">
+    <div class="col-4 col-s-4 col-m-12">
         <div class="item">
           <img src="img/items/whiterig.jpg">
           <p>14mm White Rig<br>$150</p>
@@ -47,10 +46,10 @@
         </div>
     </div>
   </div>
+
   <footer>
     <?php include 'inc/footer.php'; ?>
   </footer>
 </body>
-<script src="js/slideshow.js"></script>
-<script src="js/clock.js"></script>
+<?php include 'inc/js.php'; ?>
 </html>
